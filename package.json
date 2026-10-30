@@ -1,0 +1,11 @@
+{
+  "name": "travelsync-workspace",
+  "version": "1.0.0",
+  "description": "TravelSync - AI Travel Planner Using Multi-Agent System",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:ai": "cd ai-service && python main.py",
+    "test:ai": "cd ai-service && pytest -v"
+  }
+}
